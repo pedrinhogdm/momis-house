@@ -67,10 +67,18 @@ header{
 
 .links{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 6px;
+    border-radius: 5px;
 }
 
 .links:hover{
-    font-weight: bold;
+    background-color: #2B78E4;
+    transition-duration: 0.4s;
+}
+
+.links:active{
+    background-color: #00419d;
+    transition-duration: 0s;
 }
 
 .login-button button{
@@ -156,17 +164,19 @@ header{
     margin-right: 5vh;
 }
 
-.texto-1{
-    font-family: 'Abyssinica SIL', serif;
-    color: #2B78E4;
+.nome{
     text-align: center;
-    font-size: 4em;
-    -webkit-text-stroke: 0.1px black;
 }
+
+.nome-medio{
+    font-size: 50px;
+}
+
 
 .texto-2{
     color: white;
-    font-size: max(93%, 1.7vw);
+    font-size: max(20px , 2.7vw);
+    margin: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -180,4 +190,14 @@ header{
 
 footer{
     color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p > a{
+    color: black;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
 }
