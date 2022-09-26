@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 
 *{
     margin: 0;
@@ -20,7 +20,7 @@ section{
     background-size: cover;
     background-position: top right;
     background-attachment: fixed;
-    height: 80vh;
+    height: 100vh;
 }
 
 header{
@@ -156,11 +156,20 @@ header{
     margin-right: 5vh;
 }
 
-.texto-principal{
+.texto-1{
+    font-family: 'Abyssinica SIL', serif;
+    color: #2B78E4;
+    text-align: center;
+    font-size: 4em;
+    -webkit-text-stroke: 0.1px black;
+}
+
+.texto-2{
     color: white;
     font-size: max(93%, 1.7vw);
-    margin-right: 20vw;
-    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .borda{
@@ -168,20 +177,6 @@ header{
     text-shadow: 0 0 10px black
 }
 
-
-.header-quem-somos{
-    padding-top: 3vh;
-    padding-bottom: 7vh;
-    background-color: black;    
-}
-
-.texto-quem-somos{
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    margin-top: 6vh;
-}
 
 footer{
     color: black;
